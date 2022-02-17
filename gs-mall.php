@@ -15,9 +15,9 @@
  * @wordpress-plugin
  * Plugin Name:       Griya Samara Mall
  * Plugin URI:        http://gsmall.id
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.1
- * Author:            YukDiOrder Agency
+ * Description:       Plugin Custom
+ * Version:           1.0.2
+ * Author:            YukDiOrder 
  * Author URI:        http://yukdiorder.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
