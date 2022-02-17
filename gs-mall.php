@@ -38,13 +38,13 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'GS_MALL_VERSION', '1.0.0' );
 require 'vendor/autoload.php';
 	$myUpdateChecker = Puc_v4_Factory :: buildUpdateChecker (
-	'https://github.com/Muhwildanferdiansyah/plugin_gsmall.git' ,
+	'https://github.com/Muhwildanferdiansyah/gs-mall' ,
    __FILE__, // Path lengkap ke file plugin utama atau functions.php. 
    'gs-mall' 
 );
 
 // Tetapkan cabang yang berisi rilis stabil. 
-$myUpdateChecker->setBranch('stable-branch-name');
+$myUpdateChecker->setBranch('main');
 
 //Opsional: Jika Anda menggunakan repositori pribadi, tentukan token akses seperti ini: 
 $myUpdateChecker -> setAuthentication ( 'your-token-here' );
